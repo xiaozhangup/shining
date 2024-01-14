@@ -52,6 +52,7 @@ taboolib {
         
         dependencies { 
             name("PlaceholderAPI").optional(true)
+            name("eco").optional(true)
         }
     }
 }
