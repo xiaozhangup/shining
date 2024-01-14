@@ -84,14 +84,14 @@ import taboolib.module.metrics.Metrics
 import taboolib.platform.BukkitPlugin
 
 @RuntimeDependencies(
-    RuntimeDependency(value = "org.jetbrains.kotlin:kotlin-reflect:1.7.21", isolated = true, transitive = false),
+    RuntimeDependency(value = "org.jetbrains.kotlin:kotlin-reflect:1.7.21", transitive = false),
 //    RuntimeDependency(value = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4", isolated = true, transitive = false),
 //    RuntimeDependency(value = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4", isolated = true, transitive = false),
 //    RuntimeDependency(value = "org.jetbrains.exposed:exposed-core:0.41.1", isolated = true, transitive = false),
 //    RuntimeDependency(value = "org.jetbrains.exposed:exposed-dao:0.41.1", isolated = true, transitive = false),
 //    RuntimeDependency(value = "org.jetbrains.exposed:exposed-jdbc:0.41.1", isolated = true, transitive = false),
-    RuntimeDependency(value = "com.fasterxml.jackson.module:jackson-module-kotlin:2.15.0", isolated = true, transitive = false),
-    RuntimeDependency(value = "!com.zaxxer:HikariCP:4.0.3", isolated = true)
+    RuntimeDependency(value = "com.fasterxml.jackson.module:jackson-module-kotlin:2.15.0", transitive = false),
+    RuntimeDependency(value = "!com.zaxxer:HikariCP:4.0.3")
 )
 object Shining : Plugin(), ShiningPlugin {
     

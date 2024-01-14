@@ -32,7 +32,7 @@ taboolib {
     
     options(
         "skip-kotlin-relocate",
-        "enable-isolated-classloader",
+        // "enable-isolated-classloader",
         "keep-kotlin-module"
     )
     
